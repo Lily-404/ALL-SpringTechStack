@@ -6,7 +6,8 @@
       laotutou007
     </p>
     <a href="https://github.com/laotutou007/done" target="_blank">
-      {{ blog.blogInfo.siteConfig.recordNumber }}
+      <!-- {{ blog.blogInfo.siteConfig.recordNumber }} -->
+      hello
     </a>
   </footer>
 </template>

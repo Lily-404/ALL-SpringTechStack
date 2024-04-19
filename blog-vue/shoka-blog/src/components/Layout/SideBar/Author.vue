@@ -3,6 +3,7 @@
     <!-- 作者信息 -->
     <div class="author-container">
       <!-- 作者头像 -->
+      <!-- <img class="author-avatar" :src="blog.blogInfo.siteConfig.authorAvatar" /> -->
       <img class="author-avatar" :src="blog.blogInfo.siteConfig.authorAvatar" />
       <!-- 作者名称 -->
       <!-- <p class="author-name">{{ blog.blogInfo.siteConfig.siteAuthor }}</p> -->
