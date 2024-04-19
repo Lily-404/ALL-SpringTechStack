@@ -72,7 +72,7 @@ const send = () => {
   width: 22.5rem;
   margin: 0 auto;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   z-index: 5;
 }
 
@@ -93,19 +93,19 @@ const send = () => {
   border-radius: 1.25rem;
   padding: 0 1.25rem;
   outline: none;
-  color: #eee;
-  border: #fff 1px solid;
+  color: #f7e8e8;
+  border: #ffffff 1px solid;
 }
 
 .message-input .input::-webkit-input-placeholder {
-  color: #eeee;
+  color: #f7f7ffee;
 }
 
 .message-input .send {
   height: 100%;
   padding: 0 1.25rem;
-  color: #eee;
-  border: #fff 1px solid;
+  color: #ffffff;
+  border: #ffffff 1px solid;
   border-radius: 20px;
   outline: none;
   animation: slideUpIn 0.3s;
@@ -119,7 +119,7 @@ const send = () => {
   bottom: 0;
   width: 100%;
   background-color: var(--color-blue);
-  background: url("https://static.ttkwsd.top/config/e3408389cb0d4ea1b5f651873dab2a19.jpg") center no-repeat;
+  background: url("../../assets/images/Browser Company Tweet.jpeg") center no-repeat;
   animation: slideDownIn 1s;
 }
 

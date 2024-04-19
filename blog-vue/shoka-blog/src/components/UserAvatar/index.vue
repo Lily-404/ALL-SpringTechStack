@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- <img class="user-avatar" :src="blog.blogInfo.siteConfig.authorAvata" @click="dialogVisible = true" /> -->
     <img class="user-avatar" :src="user.avatar" @click="dialogVisible = true" />
     <n-modal class="bg" v-model:show="dialogVisible" preset="dialog" :show-icon="false" transform-origin="center"
       :block-scroll="false" :closable="false" @after-leave="handleClose">
@@ -24,19 +25,21 @@
 </template>
 
 <script setup lang="ts">
+import { useBlogStore } from "@/store";
 import { updateUserAvatar } from "@/api/user";
 import { useUserStore } from "@/store";
 import { UploadCustomRequestOptions } from "naive-ui";
 import { VueCropper } from 'vue-cropper';
 import 'vue-cropper/dist/index.css';
 const user = useUserStore();
+const blog = useBlogStore();
 const dialogVisible = ref(false);
 const cropperRef = ref();
 const options = reactive({
   img: user.avatar, // 裁剪图片的地址
   autoCrop: true, // 是否默认生成截图框
-  autoCropWidth: 200, // 默认生成截图框宽度
-  autoCropHeight: 200, // 默认生成截图框高度
+  autoCropWidth: 300, // 默认生成截图框宽度
+  autoCropHeight: 300, // 默认生成截图框高度
   fixedBox: true, // 固定截图框大小 不允许改变
   outputType: "png", // 默认生成截图为PNG格式
 });

@@ -3,8 +3,8 @@
     <!-- 作者信息 -->
     <div class="author-container">
       <!-- 作者头像 -->
+      <img class="author-avatar" :src="user.avatar" />
       <!-- <img class="author-avatar" :src="blog.blogInfo.siteConfig.authorAvatar" /> -->
-      <img class="author-avatar" :src="blog.blogInfo.siteConfig.authorAvatar" />
       <!-- 作者名称 -->
       <!-- <p class="author-name">{{ blog.blogInfo.siteConfig.siteAuthor }}</p> -->
       <p class="author-name">{{ 'laotutou007' }}</p>
@@ -20,7 +20,9 @@
 
 <script setup lang="ts">
 import { useBlogStore } from "@/store";
+import { useUserStore } from "@/store";
 const blog = useBlogStore();
+const user = useUserStore();
 
 </script>
 

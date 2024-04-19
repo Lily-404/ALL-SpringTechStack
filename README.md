@@ -30,6 +30,8 @@
 
 **管理账号**：admin@qq.com **密码**：123456
 
+**blog账号**：admin@qq.com **密码**：123456
+
 **接口文档：** https://www.ttkwsd.top/api/doc.html
 
 
@@ -103,17 +105,6 @@ ElasticSearch + RabbitMQ + Canal
 ![](https://static.ttkwsd.top/article/29ebbffccbe4367b8c113f9dee9184fc.png)
 ![](https://static.ttkwsd.top/article/14f21792d32ceac730dad62798ac353c.png)
 ![](https://static.ttkwsd.top/article/d4efdf65ea8a393693e317cdebdb6b43.png)
-
-## 后续计划
-
-- [ ] 整合 EasyExcel 导出 Excel
-- [ ] 第三方登录使用 JustAuth
-- [ ] 博客文章导入导出
-- [ ] 移动端文章目录
-- [x] 图片瀑布流布局
-- [ ] B 站追番页
-- [x] B 站图床
-- [x] 聊天室
 
 ## 项目总结
 
