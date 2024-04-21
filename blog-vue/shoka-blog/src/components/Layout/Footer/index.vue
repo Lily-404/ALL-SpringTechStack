@@ -1,13 +1,13 @@
 <template>
   <footer class="footer-wrapper" v-if="!isMessage">
     <p>
-      © 2024-4-3 -
-      {{ new Date().getFullYear() }} By
-      laotutou007
+      © 2024 -
+      Now By
+      史旭阳
     </p>
     <a href="https://github.com/laotutou007/done" target="_blank">
       <!-- {{ blog.blogInfo.siteConfig.recordNumber }} -->
-      hello
+      去向月球
     </a>
   </footer>
 </template>

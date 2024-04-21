@@ -1,11 +1,11 @@
 
-W
-java:S1128"<Remove this unused import 'com.qiniu.storage.BucketManager'.(á­¡úÿÿÿÿ
-P
-java:S1128"5Remove this unused import 'com.qiniu.storage.Region'.(ÒŒòÂùÿÿÿÿ
-R
-java:S1128"<Remove this unused import 'com.qiniu.storage.UploadManager'.(½ØæÜ
-F
-java:S1128"0Remove this unused import 'com.qiniu.util.Auth'.(¡ÇÕĞ
-^
-java:S1128	"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş
+}
+java:S1128"<Remove this unused import 'com.qiniu.storage.BucketManager'.(á­¡úÿÿÿÿJ$9744733e-dd4d-49a7-88dc-bbcb665bae0b
+v
+java:S1128"5Remove this unused import 'com.qiniu.storage.Region'.(ÒŒòÂùÿÿÿÿJ$b89f0b23-e959-4d28-859c-9d20421b9ebc
+x
+java:S1128"<Remove this unused import 'com.qiniu.storage.UploadManager'.(½ØæÜJ$219dec92-92ca-4612-a7ef-2cf465447d16
+l
+java:S1128"0Remove this unused import 'com.qiniu.util.Auth'.(¡ÇÕĞJ$87121178-0c8b-4411-bacc-699ea744d3eb
+„
+java:S1128	"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰ŞJ$af710711-8721-4637-99ed-22c7af61bd83

@@ -29,3 +29,9 @@ Bsrc/main/java/com/ican/strategy/context/UploadStrategyContext.java,c/e/ce7a989
 0src/main/java/com/ican/utils/UserAgentUtils.java,5/5/5534ce8c224b43f920594689479f3bc243dcb1bb
 q
 Asrc/main/java/com/ican/strategy/impl/QiniuUploadStrategyImpl.java,5/d/5d0483f98e4a7b2708d294a3f0ddef1c4d0fb585
+e
+5src/main/java/com/ican/controller/UserController.java,c/9/c99536d63ff9ce7c737b6b02c0150fa0f749c006
+f
+6src/main/java/com/ican/controller/LoginController.java,8/c/8c9032b6cbb27d8f644a7cba7753bb1777cd1001
+`
+0src/main/java/com/ican/service/LoginService.java,3/3/33b2a802238204e1e54c266806dfa36986f3a8c5

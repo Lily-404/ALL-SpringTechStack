@@ -68,18 +68,9 @@
 
 **前端：** Vue3 + Pinia + Vue Router + TypeScript + Axios + Element Plus + Naive UI + Echarts + Swiper
 
-**后端：** SpringBoot + Mysql + Redis + Quartz + Thymeleaf + Nginx + Docker + Sa-Token + Swagger2 + MyBatisPlus +
-ElasticSearch + RabbitMQ + Canal
+**后端：** SpringBoot + Mysql + Redis + Quartz + Thymeleaf + Nginx + Docker + Sa-Token + Swagger2 + MyBatisPlus +ElasticSearch + RabbitMQ + Canal
 
 **其他：** 接入 QQ、Gitee、Github 第三方登录
-
-## 运行环境
-
-**服务器：** 腾讯云 2 核 4G CentOS7.6
-
-**对象存储：** 阿里云 OSS、腾讯云 COS
-
-**最低配置：** 2 核 2G 服务器（关闭 ElasticSearch）
 
 ## 开发环境
 
@@ -100,17 +91,11 @@ ElasticSearch + RabbitMQ + Canal
 | Elasticsearch | 7.17.3 |
 |   RabbitMQ    | 3.9.11 |
 
-## 项目截图
 
-![](https://static.ttkwsd.top/article/29ebbffccbe4367b8c113f9dee9184fc.png)
-![](https://static.ttkwsd.top/article/14f21792d32ceac730dad62798ac353c.png)
-![](https://static.ttkwsd.top/article/d4efdf65ea8a393693e317cdebdb6b43.png)
 
 ## 项目总结
 
 鸣谢项目：
-
-- [ 风丶宇 ](https://github.com/X1192176811/blog)
 
 - **[hexo-theme-shoka](https://github.com/amehime/hexo-theme-shoka)**
 

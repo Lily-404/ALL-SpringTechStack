@@ -2,7 +2,8 @@
   <div class="menu">
     <div class="menu-item title">
       <router-link to="/" class="menu-btn">
-        {{ blog.blogInfo.siteConfig.siteName }}
+        <!-- {{ blog.blogInfo.siteConfig.siteName }} -->
+        去向月球
       </router-link>
     </div>
     <template v-for="menu of menuList" :key="menu.name">
