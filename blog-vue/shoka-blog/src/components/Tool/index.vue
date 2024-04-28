@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="tool" :style="y > 0 ? show : ''">
     <div class="item" v-if="route.meta.title == '文章'" @click="handleSide">
       <svg-icon icon-class="heng" size="1.5rem"></svg-icon>

@@ -7,7 +7,7 @@
     </div>
     <!-- 公告内容 -->
     <!-- <div class="notice-content" v-html="blog.blogInfo.siteConfig.siteNotice"></div> -->
-    <div class="notice-content" >后端基于SpringBoot开发，前端基于Vue3 Ts Navie UI开发 by sxy</div>
+    <div class="notice-content" >后端基于SpringBoot开发，前端基于Vue3 Ts Navie UI开发 by 史旭阳</div>
     
   </div>
 </template>

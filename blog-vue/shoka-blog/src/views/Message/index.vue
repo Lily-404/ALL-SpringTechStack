@@ -1,7 +1,7 @@
 <template>
   <!-- 弹幕输入框 -->
   <div class="message-container">
-    <h1 class="message-title">留言板</h1>
+    <h1 class="message-title">意见箱</h1>
     <div class="message-input">
       <input class="input" v-model="messageContent" @click="show = true" @keyup.enter="send" placeholder="说点什么吧" />
       <button class="send" @click="send" v-show="show">发送</button>

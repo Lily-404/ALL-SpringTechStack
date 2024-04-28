@@ -3,7 +3,7 @@
     <div class="menu-item title">
       <router-link to="/" class="menu-btn">
         <!-- {{ blog.blogInfo.siteConfig.siteName }} -->
-        去向月球
+        智民圈
       </router-link>
     </div>
     <template v-for="menu of menuList" :key="menu.name">
@@ -80,7 +80,7 @@ const menuList = [
     ]
   },
   {
-    name: "娱乐",
+    name: "公告",
     icon: "fun",
     children: [
       {
@@ -101,12 +101,12 @@ const menuList = [
     ]
   },
   {
-    name: "友链",
+    name: "法律顾问",
     icon: "friend",
     path: "/friend"
   },
   {
-    name: "留言板",
+    name: "意见箱",
     icon: "message",
     path: "/message"
   },

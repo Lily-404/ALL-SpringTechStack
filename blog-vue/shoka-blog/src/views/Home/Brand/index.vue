@@ -2,11 +2,12 @@
   <div ref="brandRef" class="brand-container">
     <div class="brand">
       <!-- 标题 -->
-      <p class="artboard">{{ blog.blogInfo.siteConfig.siteName }}</p>
+      <!-- <p class="artboard">{{ blog.blogInfo.siteConfig.siteName }}</p> -->
+      <p class="artboard">智民圈——民生网络智能服务平台 </p>
       <!-- 打字机 -->
       <div class="title">
         {{ obj.output }}
-        <span class="easy-typed-cursor">|</span>
+        <!-- <span class="easy-typed-cursor">|</span> -->
       </div>
     </div>
     <!-- 波浪 -->

@@ -1,7 +1,7 @@
 <template>
   <div class="page-header">
-    <h1 class="page-title">友情链接</h1>
-    <img class="page-cover" src="https://static.ttkwsd.top/config/c8049b9b880411ebb6edd017c2d2eca2.jpg" alt="" />
+    <h1 class="page-title">法律顾问</h1>
+    <img class="page-cover" src="" alt="" />
     <!-- 波浪 -->
     <Waves></Waves>
   </div>
@@ -9,20 +9,17 @@
     <div class="page-container">
       <h2>
         <svg-icon class="flower" icon-class="flower" size="1.25rem" color="pink"></svg-icon>
-        本站信息
+        顾问主题
       </h2>
-      <blockquote class="block">
-        <p>名称：{{ blog.blogInfo.siteConfig.siteName }}</p>
-        <p>简介：{{ blog.blogInfo.siteConfig.siteIntro }}</p>
-        <p>头像：{{ blog.blogInfo.siteConfig.authorAvatar }}</p>
-      </blockquote>
+      <div>
+
+      </div>
       <h2>
         <svg-icon class="flower" icon-class="flower" size="1.25rem" color="pink"></svg-icon>
         申请方法
       </h2>
-      <div class="welcome">需要交换友链的可在本页留言 (｡･∀･)ﾉﾞ</div>
+      <div class="welcome">搜索</div>
       <blockquote class="block">
-        <p>出于信息需要,大佬你的信息格式要包含：网站名称、网站链接、头像链接、网站介绍、名称颜色</p>
       </blockquote>
       <h2>
         <svg-icon class="flower" icon-class="flower" size="1.25rem" color="pink"></svg-icon>

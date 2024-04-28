@@ -68,6 +68,7 @@ onMounted(() => {
   }
   // 跳转回原页面
   const loginUrl = user.path;
+
   if (loginUrl != null && loginUrl != "") {
     router.push(loginUrl);
   } else {
